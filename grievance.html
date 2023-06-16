@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="grievance.css">
+  <title>Grievance Form</title>
+</head>
+<body>
+  <h1>Grievance Form</h1>
+  <form id="grievanceForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" required>
+
+    <label for="complaintType">Complaint Type:</label>
+    <select id="complaintType" required>
+      <option value="">Select an option</option>
+      <option value="grievance">Grievance</option>
+      <option value="suggestion">Suggestion</option>
+      <option value="info">General Information</option>
+      <option value="website">Website Related</option>
+    </select>
+
+    <label for="society">Complaint related to society:</label>
+    <select id="society" required>
+      <option value="">Select an option</option>
+      <option value="crcs">CRCS Society</option>
+      <option value="others">Other Society</option>
+    </select>
+
+    <label for="feedback">Complaint/Feedback:</label>
+    <textarea id="feedback" rows="5" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="grievance.js"></script>
+</body>
+</html>
