@@ -44,8 +44,27 @@
   </div> 
   <a href="#">Application</a>
 </nav>
-  <div class="container">
-    <h1></h1>
+<br>
+<div class="container">
+  <div class="sort-options">
+    <label for="sort-select">Sort By:</label>
+    <select id="sort-select">
+      <option value="">--All--</option>
+      <option value="month">Month of Registration</option>
+      <option value="state">State</option>
+      <option value="name">Name of Society</option>
+    </select>
+  </div>
+  <div id="month-filter-container" class="filter-options" style="display: none;">
+    <label for="month-filter">Filter by Month:</label>
+    <select id="month-filter">
+      <option value="">All</option>
+      <option value="01">January</option>
+      <option value="02">February</option>
+      <option value="03">March</option>
+      <!-- Add more month options as needed -->
+    </select>
+  </div>
     <div class="table-wrapper">
       <table>
         <thead>
