@@ -278,6 +278,17 @@ ul {
 .bulletin-section li {
   margin-bottom: 10px;
 }
+}
+.useful-links {
+  background-color: #052963;
+  padding: 10px;
+}
+
+.useful-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
 section {
     min-height: 100vh;
 }
