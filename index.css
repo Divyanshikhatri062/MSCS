@@ -52,19 +52,19 @@ header {
   }
 @media screen and (max-width: 480px) {
   .responsive-image {
-    max-width: 40%;
+    max-width: 90%;
   }
 }
   .responsive-text {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-top: 0px;
   }
   .second-text {
-    font-size: 3.5vw;
+    font-size: 5vw;
     margin-top: 0px;
   }
   .third-text {
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-top: 0px;
   }
  
